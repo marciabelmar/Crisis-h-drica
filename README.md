@@ -192,3 +192,5 @@ Estos elementos ayudarán a visualizar la magnitud del problema, identificar pat
 <https://obtienearchivo.bcn.cl/obtienearchivo?id=repositorio/10221/23747/2/Calidad%20del%20Agua%20Final.pdf> 
 
 <https://www.iniciativamilenio.cl/wp-content/uploads/2018/03/Documento-extenso-agua-y-salud.pdf> 
+
+

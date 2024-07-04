@@ -81,15 +81,26 @@ footer a {
     margin: 5px 0;
 }
 
-/* Nueva clase para la imagen alineada a la derecha */
-.img-right {
+/* Ajuste para las imágenes alineadas a la derecha */
+.img-right, .img-right-large, .img-right-last {
     float: right;
     margin: 10px;
-    max-width: 50%; /* Ajusta el tamaño máximo de la imagen */
     height: auto; /* Mantiene la proporción de la imagen */
 }
 
+/* Ajuste específico para las imágenes */
+.img-right {
+    max-width: 50%; /* Tamaño máximo para las imágenes normales */
+}
 
+.img-right-large {
+    max-width: 70%; /* Tamaño máximo para la imagen más grande */
+}
+
+.img-right-last {
+    max-width: 30%; /* Tamaño máximo para la última imagen */
+    clear: both; /* Asegura que la imagen no se superponga */
+}
 
 
 

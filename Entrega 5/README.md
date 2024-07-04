@@ -146,7 +146,7 @@ El código generará un archivo HTML llamado variacion_caudales_rio_itata_area_c
 ### Roboto:
 Tipografía sans-serif moderna y muy legible. Es ideal para contenido digital y es ampliamente utilizada en interfaces de usuario, lo que la hace familiar para personas que consumen contenido en línea.
 Uso: Textos largos, párrafos de información.
-2. Montserrat
+### Montserrat
 Montserrat es otra tipografía sans-serif que combina un estilo moderno con una excelente legibilidad. Sus formas geométricas son atractivas y fáciles de leer, lo que la hace adecuada para títulos y subtítulos, así como para párrafos de texto.
 Uso: Títulos, subtítulos, y elementos destacados de la web story.
 

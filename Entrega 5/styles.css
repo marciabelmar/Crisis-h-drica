@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFFFFF; /* Fondo blanco */
+}
+header, footer {
+    background-color: #0079B6; /* Fondo azul */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Montserrat', sans-serif; /* Fuente Montserrat */
+}
+nav {
+    background-color: #0079B6; /* Mantener el fondo azul */
+    padding: 10px 0;
+    text-align: center;
+}
+nav a {
+    color: #3F9988; /* Color del texto de los botones */
+    margin: 0 15px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding: 10px 20px;
+    background-color: #f0f8ff; /* Fondo claro para los botones */
+    border: 2px solid #3F9988; /* Contorno #3F9988 */
+    border-radius: 5px;
+    font-weight: bold; /* Texto en negrita */
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para los botones */
+}
+nav a:hover {
+    background-color: #3F9988; /* Cambiar el fondo al pasar el ratón */
+    color: white; /* Cambiar el color del texto al pasar el ratón */
+}
+section {
+    padding: 20px;
+    margin: 30px auto; /* Más espacio entre las secciones */
+    width: 80%;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+    border: 2px solid #3F9988; /* Bordes más gruesos */
+}
+section:hover {
+    transform: scale(1.02); /* Efecto hover para las secciones */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra al hacer hover */
+}
+.color-block {
+    background-color: white; /* Fondo blanco */
+    color: #69400A; /* Color de texto #69400A */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left; /* Alinear títulos a la izquierda */
+}
+.color-block h2 {
+    color: #69400A; /* Color de los titulares */
+    font-size: 22px; /* Agrandar los subtítulos */
+    margin-bottom: 15px;
+}
+.color-block h3 {
+    font-size: 18px; /* Tamaño de subtítulos internos */
+}
+.color-block p {
+    color: #A87839; /* Detalles en #A87839 */
+}
+.color-block p strong {
+    font-weight: bold; /* Destacar conceptos importantes */
+    color: #69400A; /* Color diferente para destacar */
+}
+footer a {
+    color: white;
+    text-decoration: underline;
+    display: block;
+    margin: 5px 0;
+}
+
+/* Nueva clase para la imagen alineada a la derecha */
+.img-right {
+    float: right;
+    margin: 10px;
+    max-width: 50%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
+
+
+
+
+

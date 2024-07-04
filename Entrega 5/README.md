@@ -1,9 +1,4 @@
-
-
-
-
-
-
+# Entrega 5: Webstory
 
 ## Procesamiento de datos de caudales medios del río Itata
 Este paso del proyecto detalla el proceso para transformar los datos en bruto de los caudales medios mensuales del Río Itata en datos limpios y agregados por año, excluyendo el año 2023, que no tiene los datos completos. Los datos se consolidan en un archivo CSV y XLSX con las columnas "Año" y "Caudal (m3/s)".
@@ -149,4 +144,44 @@ Uso: Textos largos, párrafos de información.
 ### Montserrat
 Montserrat es otra tipografía sans-serif que combina un estilo moderno con una excelente legibilidad. Sus formas geométricas son atractivas y fáciles de leer, lo que la hace adecuada para títulos y subtítulos, así como para párrafos de texto.
 Uso: Títulos, subtítulos, y elementos destacados de la web story.
+
+## Código
+
+### Archivos Principales
+
+- `index.html`: Contiene la estructura HTML de la página.
+- `styles.css`: Contiene los estilos CSS para la página.
+- `visualizacion`: Visualización creada con Colab
+- `favicon.png`: Ícono de la página.
+
+### Paso a Paso de la Creación
+
+### 1. Creación del HTML
+
+#### Estructura Básica
+
+- **Encabezado (Header)**
+    - Título de la página y descripción.
+    - Navegación con enlaces a las secciones de la página.
+
+- **Secciones Principales**
+    - `La crisis hídrica`
+    - `Región de Ñuble: 5 años de historia`
+    - `Ñuble, el epicentro de la sequía`
+    - `Ríos en Ñuble`
+    - `¿Es segura el agua que bebemos?`
+
+- **Pie de Página (Footer)**
+    - Información de cierre con el nombre del proyecto.
+
+### 2. Creación del CSS
+Estilos Generales
+- Fuente y Estilo del Cuerpo: Usar las fuentes Roboto y Montserrat desde Google Fonts. Establecer el fondo del cuerpo en blanco. Encabezado y Pie de Página. Establecer el fondo en azul (#0079B6) y el texto en blanco. Usar la fuente Montserrat.
+
+- Navegación: Botones con fondo claro y contorno verde (#3F9988). Transiciones y sombra para mejorar la experiencia de usuario.
+
+- Secciones: Margen y padding para espaciar las secciones.Bordes más gruesos y sombra para las cajas de contenido. Color Block. Fondo blanco y texto en color marrón (#69400A). Alinear títulos a la izquierda y destacar subtítulos y conceptos importantes en negrita.
+
+- Imágenes: Clases específicas para ajustar el tamaño y la alineación de las imágenes. Asegurar que las imágenes mantengan su proporción.
+
 

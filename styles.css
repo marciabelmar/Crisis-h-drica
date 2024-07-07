@@ -6,37 +6,93 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #FFFFFF; /* Fondo blanco */
+    background-image: url('Entrega6/gotas.png'); /* Imagen de fondo en mosaico */
+    background-repeat: repeat; /* Repetir la imagen en mosaico */
 }
-header, footer {
-    background-color: #0079B6; /* Fondo azul */
+
+header {
+    background-color: #00547E; /* Fondo azul */
     color: white;
     text-align: center;
     padding: 20px 0;
     font-family: 'Montserrat', sans-serif; /* Fuente Montserrat */
 }
-nav {
-    background-color: #0079B6; /* Mantener el fondo azul */
-    padding: 10px 0;
-    text-align: center;
+
+.header-content {
+    max-width: 1200px; /* Limitar el ancho del contenido del header */
+    margin: 0 auto; /* Centrar el contenido del header */
+    padding: 0 20px; /* Añadir márgenes laterales */
 }
-nav a {
+
+header h1 {
+    font-size: 32px; /* Tamaño más grande para el título */
+}
+
+header p {
+    font-size: 20px; /* Tamaño más grande para el subtítulo */
+    margin-top: 10px; /* Espacio entre título y subtítulo */
+}
+
+.menu-with-image {
+    background-color: #00547E; /* Fondo color #00547E */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu-content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.menu-content p {
+    font-size: 18px;
+    color: white; /* Texto en blanco para contraste */
+    margin-bottom: 20px; /* Espacio entre el párrafo y el menú */
+}
+
+.cd-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cd-menu li {
+    margin: 10px 0;
+}
+
+.cd-menu a {
+    display: block;
+    padding: 10px 20px;
+    margin: 5px 0;
+    background-color: #FFFFFF; /* Fondo blanco para los botones */
     color: #3F9988; /* Color del texto de los botones */
-    margin: 0 15px;
+    border: 2px solid #3F9988; /* Contorno verde azulado */
+    border-radius: 5px;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    padding: 10px 20px;
-    background-color: #f0f8ff; /* Fondo claro para los botones */
-    border: 2px solid #3F9988; /* Contorno #3F9988 */
-    border-radius: 5px;
-    font-weight: bold; /* Texto en negrita */
+    font-weight: bold;
     transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para los botones */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-nav a:hover {
+
+.cd-menu a:hover {
     background-color: #3F9988; /* Cambiar el fondo al pasar el ratón */
     color: white; /* Cambiar el color del texto al pasar el ratón */
 }
+
+.menu-image {
+    flex: 1;
+    text-align: center;
+}
+
+.menu-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
 section {
     padding: 20px;
     margin: 30px auto; /* Más espacio entre las secciones */
@@ -46,39 +102,57 @@ section {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
-    border: 2px solid #3F9988; /* Bordes más gruesos */
+    border: 2px solid #0079B6; /* Bordes más gruesos */
 }
+
 section:hover {
     transform: scale(1.02); /* Efecto hover para las secciones */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra al hacer hover */
 }
+
 .color-block {
     background-color: white; /* Fondo blanco */
-    color: #69400A; /* Color de texto #69400A */
+    color: #69400A; /* Color de texto marrón oscuro */
     padding: 20px;
     border-radius: 10px;
     text-align: left; /* Alinear títulos a la izquierda */
 }
+
 .color-block h2 {
     color: #69400A; /* Color de los titulares */
     font-size: 22px; /* Agrandar los subtítulos */
     margin-bottom: 15px;
 }
+
 .color-block h3 {
     font-size: 18px; /* Tamaño de subtítulos internos */
 }
+
 .color-block p {
-    color: #A87839; /* Detalles en #A87839 */
+    color: #A87839; /* Detalles en marrón claro */
 }
+
 .color-block p strong {
     font-weight: bold; /* Destacar conceptos importantes */
     color: #69400A; /* Color diferente para destacar */
 }
-footer a {
+
+footer {
+    background-color: #00547E; /* Fondo igual al header */
     color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Montserrat', sans-serif; /* Fuente Montserrat */
+}
+
+footer a {
+    color: #BCD5FF; /* Color del enlace */
     text-decoration: underline;
-    display: block;
-    margin: 5px 0;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
 }
 
 /* Ajuste para las imágenes alineadas a la derecha */
@@ -101,8 +175,6 @@ footer a {
     max-width: 30%; /* Tamaño máximo para la última imagen */
     clear: both; /* Asegura que la imagen no se superponga */
 }
-
-
 
 
 

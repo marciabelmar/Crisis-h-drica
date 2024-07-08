@@ -175,29 +175,68 @@ footer p {
     max-width: 30%; /* Tamaño máximo para la última imagen */
     clear: both; /* Asegura que la imagen no se superponga */
 }
+
+/* Ajuste específico para la primera imagen */
+#section1 .img-right {
+    width: 392px;
+    height: 451px;
+    object-fit: cover; /* Asegura que la imagen mantenga sus proporciones al ser redimensionada */
+}
+
 #countContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
+
 #counterBox {
     background-color: #3F9988; /* Fondo del contador */
-    color: white !important; /* Forzar el color blanco */
+    color: white; /* Color del texto blanco */
     padding: 20px;
     border-radius: 5px;
     text-align: center;
     max-width: 300px;
 }
+
 #counter {
     font-size: 48px;
     margin: 0;
 }
+
 .count-description {
     font-size: 18px;
     margin-top: 10px;
-    color: white !important; /* Forzar el color blanco */
+    color: white; /* Color del texto blanco */
 }
+.menu-image img {
+    width: 392px;
+    height: 451px;
+    object-fit: cover; /* Mantener la proporción al ajustar el tamaño */
+    border-radius: 10px;
+}
+.img-sequia {
+    width: 237px;
+    height: 508px;
+    object-fit: cover; /* Mantener la proporción al ajustar el tamaño */
+    border-radius: 10px;
+}
+.img-right {
+    float: right;
+    margin: 10px;
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px;
+}
+
+.img-sequia {
+    width: 237px;
+    height: 508px;
+    object-fit: cover; /* Mantener la proporción al ajustar el tamaño */
+    border-radius: 10px;
+}
+
+
+
 
 
 

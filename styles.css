@@ -6,8 +6,6 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #FFFFFF; /* Fondo blanco */
-    background-image: url('Entrega6/gotas.png'); /* Imagen de fondo en mosaico */
-    background-repeat: repeat; /* Repetir la imagen en mosaico */
 }
 
 header {
@@ -25,20 +23,52 @@ header {
 }
 
 header h1 {
-    font-size: 32px; /* Tamaño más grande para el título */
+    font-size: 40px; /* Tamaño más grande para el título */
 }
 
 header p {
-    font-size: 20px; /* Tamaño más grande para el subtítulo */
+    font-size: 26px; /* Tamaño más grande para el subtítulo */
     margin-top: 10px; /* Espacio entre título y subtítulo */
 }
 
+#navbar {
+    background-color: #00547E; 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#navbar .cd-menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    list-style: none;
+    margin: 0;
+}
+
+#navbar .cd-menu li {
+    margin: 0;
+}
+
+#navbar .cd-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#navbar .cd-menu a:hover {
+    background-color: #003F5C;
+}
+
 .menu-with-image {
-    background-color: #00547E; /* Fondo color #00547E */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    background-color: #00547E; /* Fondo azul igual al header */
+    color: white; /* Texto en blanco */
 }
 
 .menu-content {
@@ -47,39 +77,9 @@ header p {
 }
 
 .menu-content p {
-    font-size: 18px;
-    color: white; /* Texto en blanco para contraste */
-    margin-bottom: 20px; /* Espacio entre el párrafo y el menú */
-}
-
-.cd-menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.cd-menu li {
-    margin: 10px 0;
-}
-
-.cd-menu a {
-    display: block;
-    padding: 10px 20px;
-    margin: 5px 0;
-    background-color: #FFFFFF; /* Fondo blanco para los botones */
-    color: #3F9988; /* Color del texto de los botones */
-    border: 2px solid #3F9988; /* Contorno verde azulado */
-    border-radius: 5px;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.cd-menu a:hover {
-    background-color: #3F9988; /* Cambiar el fondo al pasar el ratón */
-    color: white; /* Cambiar el color del texto al pasar el ratón */
+    font-size: 24px;
+    color: white; /* Texto en blanco */
+    margin-bottom: 20px;
 }
 
 .menu-image {
@@ -88,99 +88,144 @@ header p {
 }
 
 .menu-image img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
 section {
     padding: 20px;
-    margin: 30px auto; /* Más espacio entre las secciones */
-    width: 80%;
-    max-width: 800px;
+    margin: 30px auto;
+    width: 100%;
+    max-width: 1200px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
-    border: 2px solid #0079B6; /* Bordes más gruesos */
+    border: 2px solid #0079B6;
 }
 
 section:hover {
-    transform: scale(1.02); /* Efecto hover para las secciones */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra al hacer hover */
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .color-block {
-    background-color: white; /* Fondo blanco */
-    color: #69400A; /* Color de texto marrón oscuro */
     padding: 20px;
+    background-color: white;
+    color: #69400A;
     border-radius: 10px;
-    text-align: left; /* Alinear títulos a la izquierda */
+    text-align: left;
 }
 
 .color-block h2 {
-    color: #69400A; /* Color de los titulares */
-    font-size: 22px; /* Agrandar los subtítulos */
+    color: #69400A;
+    font-size: 30px;
     margin-bottom: 15px;
 }
 
 .color-block h3 {
-    font-size: 18px; /* Tamaño de subtítulos internos */
+    font-size: 30px;
+    margin-bottom: 15px;
 }
 
 .color-block p {
-    color: #A87839; /* Detalles en marrón claro */
+    color: #A87839;
+    font-size: 24px;
 }
 
 .color-block p strong {
-    font-weight: bold; /* Destacar conceptos importantes */
-    color: #69400A; /* Color diferente para destacar */
+    font-weight: bold;
+    color: #69400A;
 }
 
 footer {
-    background-color: #00547E; /* Fondo igual al header */
+    background-color: #00547E;
     color: white;
     text-align: center;
     padding: 10px 0;
-    font-family: 'Montserrat', sans-serif; /* Fuente Montserrat */
+    font-family: 'Montserrat', sans-serif;
 }
 
 footer a {
-    color: #BCD5FF; /* Color del enlace */
+    color: #BCD5FF;
     text-decoration: underline;
 }
 
 footer p {
     margin: 0;
-    padding: 0;
 }
 
-/* Ajuste para las imágenes alineadas a la derecha */
-.img-right, .img-right-large, .img-right-last {
+.img-right-container {
     float: right;
     margin: 10px;
-    height: auto; /* Mantiene la proporción de la imagen */
+    max-width: 50%;
 }
 
-/* Ajuste específico para las imágenes */
-.img-right {
-    max-width: 50%; /* Tamaño máximo para las imágenes normales */
+.img-right-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
-.img-right-large {
-    max-width: 70%; /* Tamaño máximo para la imagen más grande */
+.img-full-container {
+    width: 100%;
+    margin: 20px 0;
 }
 
-.img-right-last {
-    max-width: 30%; /* Tamaño máximo para la última imagen */
-    clear: both; /* Asegura que la imagen no se superponga */
+.img-full-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
-/* Ajuste específico para la primera imagen */
-#section1 .img-right {
-    width: 392px;
-    height: 451px;
-    object-fit: cover; /* Asegura que la imagen mantenga sus proporciones al ser redimensionada */
+.caption {
+    text-align: center;
+    font-size: 18px;
+    color: #69400A;
+    margin-top: 5px;
+}
+
+.nav-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav-buttons .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #3F9988;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-buttons .button:hover {
+    background-color: #00547E;
+    color: white;
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #3F9988;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    display: none;
+}
+
+#backToTop:hover {
+    background-color: #00547E;
 }
 
 #countContainer {
@@ -200,45 +245,74 @@ footer p {
 }
 
 #counter {
-    font-size: 48px;
+    font-size: 100px;
     margin: 0;
 }
 
 .count-description {
-    font-size: 18px;
+    font-size: 24px;
     margin-top: 10px;
     color: white; /* Color del texto blanco */
 }
-.menu-image img {
-    width: 392px;
-    height: 451px;
-    object-fit: cover; /* Mantener la proporción al ajustar el tamaño */
-    border-radius: 10px;
+
+.img-full {
+    max-width: 80%; /* Ajuste para la imagen de "Ríos en Ñuble" */
+    display: block;
+    margin: 0 auto;
 }
-.img-sequia {
-    width: 237px;
-    height: 508px;
-    object-fit: cover; /* Mantener la proporción al ajustar el tamaño */
-    border-radius: 10px;
-}
-.img-right {
-    float: right;
-    margin: 10px;
-    height: auto; /* Mantiene la proporción de la imagen */
+
+iframe {
+    display: block;
+    margin: 0 auto; /* Centrar el iframe */
+    width: 90%; /* Ajuste para el ancho del iframe */
+    height: 600px; /* Ajuste para la altura del iframe */
+    border: none;
     border-radius: 10px;
 }
 
-.img-sequia {
-    width: 237px;
-    height: 508px;
-    object-fit: cover; /* Mantener la proporción al ajustar el tamaño */
-    border-radius: 10px;
+@media (max-width: 768px) {
+    .menu-with-image {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .img-right-container, .img-full-container {
+        float: none;
+        margin: 20px 0;
+        max-width: 100%;
+    }
+
+    .nav-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-buttons .button {
+        margin: 10px 0;
+    }
+
+    iframe {
+        width: 100%;
+    }
 }
 
+.cd-menu a {
+    display: block;
+    padding: 15px 20px;
+    margin: 10px 0;
+    background-color: #3F9988; /* Fondo verde */
+    color: white; /* Texto blanco */
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-
-
-
-
-
-
+.cd-menu a:hover {
+    background-color: #0079B6; /* Cambiar el fondo al pasar el ratón */
+    color: white; /* Cambiar el color del texto al pasar el ratón */
+}

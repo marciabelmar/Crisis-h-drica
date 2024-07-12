@@ -260,7 +260,11 @@ footer p {
     display: block;
     margin: 0 auto;
 }
-
+.menu-image img {
+    width: 660px;
+    height: 690px;
+    border-radius: 10px;
+}
 iframe {
     display: block;
     margin: 0 auto; /* Centrar el iframe */
@@ -316,3 +320,69 @@ iframe {
     background-color: #0079B6; /* Cambiar el fondo al pasar el ratón */
     color: white; /* Cambiar el color del texto al pasar el ratón */
 }
+section#section2 .img-right-container img {
+    width: 1240px;
+    height: 531px;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+.nav-buttons .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #3F9988;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    flex-wrap: wrap; /* Permite que los botones se ajusten en múltiples líneas si es necesario */
+}
+/* CSS para la última imagen */
+.img-full-container img {
+    width: 1240px;
+    height: 644px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+/* CSS para los botones para que no se muevan */
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nav-buttons .button {
+    padding: 10px 20px;
+    background-color: #3F9988;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;  /* Centra el texto de los botones */
+    flex: 1;  /* Asegura que los botones ocupen el mismo espacio */
+    margin: 0 10px;  /* Añade margen entre los botones */
+}
+
+.nav-buttons .button:hover {
+    background-color: #00547E;
+    color: white;
+}
+
+
